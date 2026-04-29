@@ -18,7 +18,7 @@ func main() {
 
 	http.HandleFunc("/", HelloHandler)
 
-	fmt.Printf("Server starting on port %s...\n", port)
+	fmt.Printf("Server starting on pot %s...\n", port)
 	if err := http.ListenAndServe(":"+port, nil); err != nil {
 		fmt.Printf("Error starting server: %s\n", err)
 	}
